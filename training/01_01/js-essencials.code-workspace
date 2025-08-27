@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Documents/js-essencials"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js-essencials"
+	}
+}
