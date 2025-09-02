@@ -21,3 +21,4 @@ const backpack = {
   },
 };
 console.log(backpack);
+console.log("Andmed", backpack.volume);
