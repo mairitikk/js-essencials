@@ -12,6 +12,21 @@
 const vihik = {
   name: "paevik",
   size: 200,
+  varv: "roosa",
+  big: {
+    korgus: 10,
+    laius: 5,
+  },
 };
 
 console.log(vihik);
+console.log(vihik.size.valueOf());
+const backpack = {
+  name: "Everyday Backpack",
+  volume: 30,
+  toString: function () {
+    return `Backpack: ${this.name}, Volume: ${this.volume} liters`;
+  },
+};
+
+console.log(backpack.toString());
