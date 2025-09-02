@@ -7,3 +7,11 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+/**uus object */
+const vihik = {
+  name: "paevik",
+  size: 200,
+};
+
+console.log(vihik);

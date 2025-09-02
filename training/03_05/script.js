@@ -22,3 +22,5 @@ const backpack = {
 };
 console.log(backpack);
 console.log("Andmed", backpack.volume);
+var query = "pocketNum";
+console.log("number", backpack[query]);
