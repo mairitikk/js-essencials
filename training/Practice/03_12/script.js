@@ -7,11 +7,30 @@
  * - Test the objecs by calling their properties and using their methods in the console.
  */
 class Sofa {
-  constructor(name, size, color, softnes) {
+  //propertis
+  constructor(name, size, color, softness) {
     this.name = name;
     this.size = size;
     this.color = color;
-    this.softnes = softnes;
+    this.softness = softness;
+    this.isClean = true;
+  }
+
+  //methods
+  sit() {
+    console.log(`Estas ahora sentando en la Sofa ${this.name}`);
+    this.isClean = false; // sentarse hace sucio
+  }
+
+  //method to clean the sofa
+  clean() {
+    this.isClean = true;
+    console.log(`The ${this.name} esta limpiado`);
+  }
+  //cambiar color
+  recolor(newColor) {
+    this.color = newColor;
+    console.log(`The ${this.name} sofa esta en otro color ${newColor}`);
   }
 }
 
