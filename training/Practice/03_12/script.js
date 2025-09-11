@@ -6,3 +6,13 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+class Sofa {
+  constructor(name, size, color, softnes) {
+    this.name = name;
+    this.size = size;
+    this.color = color;
+    this.softnes = softnes;
+  }
+}
+
+export default Sofa;
