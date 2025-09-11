@@ -34,4 +34,9 @@ class Sofa {
   }
 }
 
-export default Sofa;
+// hasiendo nuevos objectos
+const sofaSala = new Sofa("Mairi", "pequena", "azul", "duro");
+
+// Testing
+console.log(sofaSala);
+sofaSala.sit();
