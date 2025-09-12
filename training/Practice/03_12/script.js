@@ -8,11 +8,12 @@
  */
 class Sofa {
   //propertis
-  constructor(name, size, color, softness) {
+  constructor(name, size, color, softness, weight) {
     this.name = name;
     this.size = size;
     this.color = color;
     this.softness = softness;
+    this.weight = weight;
     this.isClean = true;
   }
 
@@ -39,4 +40,5 @@ const sofaSala = new Sofa("Mairi", "pequena", "azul", "duro");
 
 // Testing
 console.log(sofaSala);
+console.log(sofaSala.sit);
 sofaSala.sit();
