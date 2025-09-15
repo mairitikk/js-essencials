@@ -20,11 +20,12 @@ const content = `
       <article>
         <h1>${everydayPack.name}</h1>
         <ul>
-          <li>${everydayPack.volume}/li>
-          <li>${everydayPack.color}</li>
-          <li>${everydayPack.pocketNum}</li>
-          <li>${everydayPack.strapLengthL}</li>
-          <li>${everydayPack.strapLengthR}</li>
+          <li>Volume: ${everydayPack.volume}/li>
+          <li>Color: ${everydayPack.color}</li>
+          <li>Age: ${everydayPack.backpackAge}</li>
+           <li>Number of pockets: ${everydayPack.pocketNum}</li>
+          <li>${everydayPack.strapLength.left}</li>
+          <li>${everydayPack.strapLength.right}</li>
           <li>${everydayPack.lidOpen}/li>
           <li>${everydayPack.dateAcquired}</li>
         </ul>
