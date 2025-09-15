@@ -18,15 +18,15 @@ const everydayPack = new Backpack(
 const content = `
  <main>
       <article>
-        <h1>Everyday Backpack</h1>
+        <h1>${everydayPack.name}</h1>
         <ul>
-          <li>Volume:</li>
-          <li>Color:</li>
-          <li>Age:</li>
-          <li>Number of pockets:</li>
-          <li>Left strap length:</li>
-          <li>Right strap length:</li>
-          <li>Lid status:</li>
+          <li>${everydayPack.volume}/li>
+          <li>${everydayPack.color}</li>
+          <li>${everydayPack.pocketNum}</li>
+          <li>${everydayPack.strapLengthL}</li>
+          <li>${everydayPack.strapLengthR}</li>
+          <li>${everydayPack.lidOpen}/li>
+          <li>${everydayPack.dateAcquired}</li>
         </ul>
       </article>
     </main>`;
