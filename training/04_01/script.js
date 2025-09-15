@@ -15,6 +15,21 @@ const everydayPack = new Backpack(
   false,
   "December 5, 2018 15:00:00 PST"
 );
+const content = `
+ <main>
+      <article>
+        <h1>Everyday Backpack</h1>
+        <ul>
+          <li>Volume:</li>
+          <li>Color:</li>
+          <li>Age:</li>
+          <li>Number of pockets:</li>
+          <li>Left strap length:</li>
+          <li>Right strap length:</li>
+          <li>Lid status:</li>
+        </ul>
+      </article>
+    </main>`;
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
