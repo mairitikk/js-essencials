@@ -19,7 +19,7 @@ const everydayPack = new Backpack(
 );
 
 const content = `
-  <article class="backpack" id="everyday">
+ 
     <figure class="backpack__image">
       <img src=${everydayPack.image} alt="" />
     </figure>
@@ -45,10 +45,11 @@ const content = `
         everydayPack.lidOpen
       }</span></li>
     </ul>
-  </article>
+
 `;
 
 const main = document.querySelector(".maincontent");
 const newArticle = document.createElement("article");
+newArticle.classList.add("backpack");
 
 main.innerHTML = content;
