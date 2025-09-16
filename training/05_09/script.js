@@ -49,5 +49,6 @@ const content = `
 `;
 
 const main = document.querySelector(".maincontent");
+const newArticle = document.createElement("article");
 
 main.innerHTML = content;
