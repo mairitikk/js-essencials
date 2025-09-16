@@ -53,3 +53,4 @@ const newArticle = document.createElement("article");
 newArticle.classList.add("backpack");
 newArticle.setAttribute("id", "everyday");
 main.innerHTML = content;
+main.append(newArticle);
