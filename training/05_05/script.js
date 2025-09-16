@@ -49,5 +49,6 @@ const content = `
     </ul>
   </article>
 `;
+document.querySelector("img");
 
 main.innerHTML = content;
