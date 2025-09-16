@@ -49,5 +49,6 @@ const content = `
     </ul>
   </article>
 `;
+document.querySelector(".site-title").style;
 
 main.innerHTML = content;
